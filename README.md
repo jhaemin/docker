@@ -2,6 +2,8 @@
 
 Summary of Docker's getting started.
 
+- [CLI commands](#cli-commands)
+
 ## What is container?
 
 A container is simply another process on your machine that has been isolated from all other processes on the host machine.
@@ -13,6 +15,18 @@ When running a container, it uses an isolated filesystem. This custom filesystem
 ## Dockerfile
 
 A Dockerfile is simply a text-based script of instructions that is used to create a container image.
+
+## Volumes
+
+Volumes provide the ability to connect specific filesystem paths of the container back to the host machine.
+
+### Named Volumes
+
+Named volumes are great if we simply want to store data, as we don't have to worry about _where_ the data is stored.
+
+### Bind Mounts
+
+With bind mounts, we control the exact mountpoint on the host. We can use this to persist data, but is often used to provide additional data into containers. When working on an application, we can use a bind mount to mount our source code into the container to let it see code changes, respond, and let us see the changes right away.
 
 ## CLI commands
 
