@@ -30,6 +30,12 @@ With bind mounts, we control the exact mountpoint on the host. We can use this t
 
 ## CLI commands
 
+### List images in local
+
+```zsh
+docker image list
+```
+
 ### Build
 
 ```zsh
