@@ -1,0 +1,13 @@
+{
+  "name": "docker_node",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Jang Haemin <io@jhaemin.com>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
